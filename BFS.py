@@ -4,8 +4,6 @@ class graph:
     def __init__(self, num, is_undirected = True):
         self.graph = defaultdict(set)
         self.is_undirected = is_undirected
-        for i in range(num):
-            self.graph[i]
 
     def addEdge(self, u, v):
         self.graph[u].add(v)
