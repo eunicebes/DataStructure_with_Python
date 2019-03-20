@@ -2,7 +2,7 @@ numbers = [1, 4, 10, 3, 5, 30, 21, 22, 15, 8]
 
 def heapify(numbers, n, i):
     largest = i
-    left =  2 * i + 1
+    left = 2 * i + 1
     right = 2 * i + 2
 
     if left < n and numbers[i] < numbers[left]:
